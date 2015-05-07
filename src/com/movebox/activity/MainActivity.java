@@ -79,14 +79,13 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("eros git test","this is branch.");
-        Log.d("eros git test","push to the branch.");
+        
         mTitle = mDrawerTitle = getTitle();
         mCategoryTitles = getResources().getStringArray(R.array.planets_array);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         
-        Log.d("eros test git","create branch");
+        Log.d("eros"," skip add push ");
         
         // set a custom shadow that overlays the main content when the drawer opens
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
