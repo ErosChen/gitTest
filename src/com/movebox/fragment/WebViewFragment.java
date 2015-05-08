@@ -15,7 +15,7 @@ public class WebViewFragment extends Fragment {
      
     public WebViewFragment() {
         // TODO Auto-generated constructor stub
-    	Log.d("eros","test amend");
+    	Log.d("eros","move file out of staged ");
     }
  
     public static WebViewFragment newInstance() {
